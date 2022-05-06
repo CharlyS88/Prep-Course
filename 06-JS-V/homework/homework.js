@@ -39,7 +39,8 @@ function agregarStringInvertida() {
     var letra = ""
     for(var i = this.length - 1; i >= 0; i--){
         letra = letra + this[i]
-    } return letra
+    } 
+    return letra
   }
 
 }
